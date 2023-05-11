@@ -5,11 +5,10 @@ class Person {
 		this.age = age
 	}
 	set setAge(age){
-		this.name = name
 		this.age = age
 	}
 	get getName(){
-		console.log(this.name, this.age)
+		return this.name
 	}
 }
 
