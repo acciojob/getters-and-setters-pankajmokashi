@@ -1,14 +1,15 @@
 //complete this code
 class Person {
 	constructor(name, age){
-		this.name = "John"
-		this.age = 30
+		this.name = name
+		this.age = age
 	}
 	set setAge(age){
+		this.name = name
 		this.age = age
 	}
 	get getName(){
-		console.log(this.name)
+		console.log(this.name, this.age)
 	}
 }
 
