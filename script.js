@@ -8,7 +8,7 @@ class Person {
 		this.age = age
 	}
 	get getName(){
-		return this.name
+		console.log(this.name)
 	}
 }
 
